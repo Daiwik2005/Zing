@@ -1,0 +1,15 @@
+so in the auth file we are building 
+functions to check the password and give the token..etc
+
+passlib is a password hashing library. and from this we are importing the CryptContext
+which is a helper function and then we have the bcrypt which is the actual algo!
+
+
+so jwt stands for json web tokens, in this 
+we create a header.payload.signature format
+where the header contains the algo for encoding hs256 and the type (wht is this (jwt))
+and then 
+the payload contains the data (what we have encoded)
+and then we sign this using the secret key(we generate some sequence that represents the payload)
+now if i change something then it wont match the signarture right..so it will be rejected(secret key is imp!)
+the signature uses HMAC or SHA256 to  create a signature

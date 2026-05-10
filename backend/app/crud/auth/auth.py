@@ -2,10 +2,11 @@
 
 from fastapi import APIRouter,Depends,HTTPException,status
 from sqlalchemy.orm import Session
-from backend import config,schemas,models,database
-from passlib import CryptContext
+import schemas
+from passlib.context import CryptContext
 from jose import jwt
 from datetime import datetime,timedelta
+import config, database, models
 
 settings=config.Settings()
 router=APIRouter()
@@ -23,10 +24,15 @@ def create_token(data:dict):
     encoded_jwt=jwt.encode(to_encode,settings.SECRET_KEY,algorithm=settings.ALGORITHM)
     return encoded_jwt
 
-def get_db():
-    db=database.SessionLocal()
+def decode_token(token:str):
     try:
-        yield db
-    finally:
-        db.close()
+        return jwt.decode(token,settings.SECRET_KEY,algorithms=settings.ALGORITHM)
+    except Exception:
+        return None
+
+
+
+
+
+
 

@@ -53,4 +53,14 @@ so whenever we write the object which is refer to the schema to a python class a
 
 we do the db commn in sessions because without it the db would be inconsistent.by session we have like a transaction like things
 so we can directly rollback or commit the way we want 
-and noot crash the program or db
+and not crash the program or db
+
+schemas is not necessary but done to make it better writing
+
+
+we are creating a db object whenever we call an api since we want it like short lived and we dont make any mistakes
+
+
+
+
+
