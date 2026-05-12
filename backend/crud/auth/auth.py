@@ -2,11 +2,11 @@
 
 from fastapi import APIRouter,Depends,HTTPException,status
 from sqlalchemy.orm import Session
-import schemas
+import schemas as schemas
 from passlib.context import CryptContext
 from jose import jwt
 from datetime import datetime,timedelta
-import config, database, models
+import config as config,database as database,models as models
 
 settings=config.Settings()
 router=APIRouter()

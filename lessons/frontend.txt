@@ -1,0 +1,7 @@
+axios is like the gateway which fetches the requests and catches them.
+this is much better than catch but is much cleaner syntax and more features!
+
+we create one axios instance and then use it everywhere
+
+
+also we need to write the frontend env variabels starting with NEXT_PUBLIC_ only other browser cannot access them
