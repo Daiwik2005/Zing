@@ -5,3 +5,25 @@ we create one axios instance and then use it everywhere
 
 
 also we need to write the frontend env variabels starting with NEXT_PUBLIC_ only other browser cannot access them
+
+there are two hooks usestate and use effect
+useState is used to store the data inside a component and to update 
+useeffect is used to run code after rendering (side effect code)
+if there is no dependency array after it..then it runs everytime the page renders
+and if dependency array is empty then once 
+or if any var 
+based ont eh var changes it executes
+
+
+useEffect(() => {
+  console.log("runs once")
+}, []) run once
+
+useEffect(() => {
+  console.log("count changed")
+}, [count])
+
+
+it is used to run side effects like backend calls
+and setState is used to trigger ui to rerender
+

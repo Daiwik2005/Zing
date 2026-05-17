@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.responses import JSONResponse
 from models import User
 from pydantic import BaseModel
 from crud.auth.auth import verify_password,create_token,decode_token,hash_password
@@ -38,16 +39,28 @@ def login(request:UserLogin,db:Session=Depends(get_db)):
     user=db.query(User).filter(
         User.email==request.email).first()
     if not user:
-        return {"message":"user not found!"}
+        return JSONResponse(
+            status_code=404,
+            content={"message":"User not Found!"}
+        )
     if user and user.password==request.password:
         return user
-    return {"message":"Incorrect Password!"}
+    return JSONResponse(
+    status_code=404,
+    content={"message": "Incorrect Password!"}
+)
 
 
 @app.post("/register")
 def register(request:UserCreate,db:Session=Depends(get_db)):
     print(len(request.password))
     #hashed_password=hash_password(request.password)
+    user=db.query(User).filter(User.email==request.email).first()
+    if user:
+        return JSONResponse(
+            status_code=400,
+            content={"Message":"User already there!"}
+        )
     new_user=User(email=request.email,
     password=request.password
                   )
@@ -56,6 +69,14 @@ def register(request:UserCreate,db:Session=Depends(get_db)):
     return {
         "message":"USER CREATED!"
     }
+
+@app.get("/dashboard")
+def dashboard(id,db:Session=Depends(get_db)):
+    user=db.query(User).filter(User.id==id).first()
+    return {
+        user
+    }
+
 
 
 
