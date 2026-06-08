@@ -3,6 +3,9 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     SECRET_KEY: str
     ALGORITHM: str
+    GITHUB_TOKEN: str
+    GEMINI_API_KEY: str
+
 
     class Config:
         env_file = ".env"

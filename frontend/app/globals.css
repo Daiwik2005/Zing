@@ -1,26 +1,214 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fafafa;
+  --foreground: #0a0a0a;
+  --card: #ffffff;
+  --card-foreground: #0a0a0a;
+  --primary: #0a0a0a;
+  --primary-foreground: #ffffff;
+  --secondary: #f0f0f0;
+  --secondary-foreground: #0a0a0a;
+  --accent: #ff6b35;
+  --accent-foreground: #ffffff;
+  --muted: #f5f5f5;
+  --muted-foreground: #737373;
+  --border: #e5e5e5;
+  --input: #e5e5e5;
+  --ring: #0a0a0a;
+  --radius: 8px;
+
+  /* Neo-brutalist colors */
+  --nb-black: #0a0a0a;
+  --nb-white: #ffffff;
+  --nb-yellow: #fffb00;
+  --nb-pink: #ff6b9d;
+  --nb-orange: #ff6b35;
+  --nb-blue: #4dabf7;
+  --nb-green: #69db7c;
+  --nb-purple: #9775fa;
+  --nb-shadow: 4px 4px 0px 0px #0a0a0a;
+  --nb-shadow-sm: 2px 2px 0px 0px #0a0a0a;
+  --nb-shadow-lg: 6px 6px 0px 0px #0a0a0a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-sans: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
+
+/* Neo-brutalist components */
+.nb-card {
+  background: var(--nb-white);
+  border: 3px solid var(--nb-black);
+  box-shadow: var(--nb-shadow);
+  border-radius: var(--radius);
+  transition: all 0.15s ease;
+}
+
+.nb-card:hover {
+  box-shadow: var(--nb-shadow-lg);
+  transform: translate(-2px, -2px);
+}
+
+.nb-button {
+  background: var(--nb-black);
+  color: var(--nb-white);
+  border: 3px solid var(--nb-black);
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.nb-button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--nb-shadow-sm);
+}
+
+.nb-button:active {
+  transform: translate(0, 0);
+  box-shadow: none;
+}
+
+.nb-button-primary {
+  background: var(--nb-yellow);
+  color: var(--nb-black);
+}
+
+.nb-button-secondary {
+  background: var(--nb-white);
+  color: var(--nb-black);
+}
+
+.nb-button-accent {
+  background: var(--nb-orange);
+  color: var(--nb-white);
+}
+
+.nb-input {
+  background: var(--nb-white);
+  border: 3px solid var(--nb-black);
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  transition: all 0.15s ease;
+}
+
+.nb-input:focus {
+  outline: none;
+  box-shadow: var(--nb-shadow-sm);
+  transform: translate(-1px, -1px);
+}
+
+.nb-input::placeholder {
+  color: #a3a3a3;
+}
+
+.nb-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  background: var(--nb-yellow);
+  border: 2px solid var(--nb-black);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.nb-section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.nb-gradient-bg {
+  background: linear-gradient(135deg, #fffb00 0%, #ff6b9d 50%, #4dabf7 100%);
+}
+
+/* A4 Resume Styles */
+.resume-a4 {
+  width: 210mm;
+  min-height: 297mm;
+  background: white;
+  box-shadow: 0 0 0 1px #e5e5e5, 0 10px 40px rgba(0,0,0,0.15);
+  border-radius: 2px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--nb-black);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.5s ease forwards;
+}
+
+.animation-delay-100 { animation-delay: 100ms; }
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-300 { animation-delay: 300ms; }
+.animation-delay-400 { animation-delay: 400ms; }
+.animation-delay-500 { animation-delay: 500ms; }

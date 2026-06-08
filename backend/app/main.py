@@ -61,9 +61,11 @@ def register(request:UserCreate,db:Session=Depends(get_db)):
             status_code=400,
             content={"Message":"User already there!"}
         )
-    new_user=User(email=request.email,
-    password=request.password
-                  )
+    new_user=User(
+        name=request.name,
+        email=request.email,
+        password=request.password
+    )
     db.add(new_user)
     db.commit()
     return {

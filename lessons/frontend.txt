@@ -27,3 +27,12 @@ useEffect(() => {
 it is used to run side effects like backend calls
 and setState is used to trigger ui to rerender
 
+to add params 
+export async function getDashboardData(id) {
+    return api.get('/dashboard',{
+        params: {id}
+    });
+}
+like this so it automatically gets like /dashboard?id=..(what we give)
+
+

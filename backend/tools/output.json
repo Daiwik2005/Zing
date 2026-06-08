@@ -1,0 +1,137 @@
+{
+    "name": "DAIWIK PALAVARAPU",
+    "email": "Daiwikpalavarapu755@gmail.com",
+    "phone": "+91 6303186352",
+    "location": "Hyderabad, Telangana, India",
+    "linkedin": "",
+    "github": "",
+    "portfolio": "",
+    "summary": "Aspiring Software Engineering student with a solid foundation in problem-solving and real-world application development, driven to contribute to meaningful projects and expand technical expertise in a professional environment.",
+    "skills": {
+        "languages": [
+            "Java",
+            "Python",
+            "JavaScript",
+            "C++"
+        ],
+        "frameworks": [
+            "React",
+            "Next.js",
+            "HTML",
+            "CSS",
+            "Flask",
+            "Node.js",
+            "FastAPI"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB",
+            "Redis"
+        ],
+        "tools": [
+            "Docker",
+            "Linux",
+            "Data Structures & Algorithms",
+            "Competitive Programming",
+            "Machine Learning",
+            "Deep Learning",
+            "LangChain"
+        ],
+        "cloud": [
+            "AWS"
+        ],
+        "iot": []
+    },
+    "projects": [
+        {
+            "name": "DLRL Internship: Computer Vision System for Drone Detection",
+            "description": "Implemented a computer vision\u2013based system to detect unauthorized drones in restricted airspace using camera input. (Jun 2025-Aug 2025)",
+            "features": [
+                "Detect unauthorized drones"
+            ],
+            "technologies": [
+                "Computer Vision"
+            ],
+            "github": "",
+            "resume_bullets": [
+                "Implemented a computer vision\u2013based system to detect unauthorized drones in restricted airspace using camera input."
+            ]
+        },
+        {
+            "name": "SmartPocket: Voice-Based Financial Assistant for Teens",
+            "description": "Developed an AI-powered financial assistant capable of handling 1000+ expense records, enabling efficient budget management. (Jan 2025-Mar 2025)",
+            "features": [
+                "Improved expense logging efficiency by 40% through conversational and voice-based interaction.",
+                "Delivered low-latency responses for real-time financial tracking."
+            ],
+            "technologies": [
+                "React (Vite)",
+                "Node.js (Express)",
+                "MongoDB",
+                "JWT Authentication",
+                "Gemini"
+            ],
+            "github": "",
+            "resume_bullets": [
+                "Developed an AI-powered financial assistant capable of handling 1000+ expense records, enabling efficient budget management.",
+                "Improved expense logging efficiency by 40% through conversational and voice-based interaction.",
+                "Delivered low-latency responses for real-time financial tracking."
+            ]
+        },
+        {
+            "name": "AI-Powered Document Verification System",
+            "description": "Engineered an OCR-based verification system with 99.27% accuracy, automating identity document validation. (Sep 2025-Nov 2025)",
+            "features": [
+                "Reduced manual verification effort by 60%+ by streamlining document processing and data extraction workflows.",
+                "Designed database storage for verification records and extracted metadata, enabling efficient retrieval and audit tracking."
+            ],
+            "technologies": [
+                "React",
+                "Node.js (Express)",
+                "MongoDB",
+                "OCR (Tesseract)"
+            ],
+            "github": "",
+            "resume_bullets": [
+                "Engineered an OCR-based verification system with 99.27% accuracy, automating identity document validation.",
+                "Reduced manual verification effort by 60%+ by streamlining document processing and data extraction workflows.",
+                "Designed database storage for verification records and extracted metadata, enabling efficient retrieval and audit tracking."
+            ]
+        },
+        {
+            "name": "LLM from scratch",
+            "description": "Built fundamental components of a Large Language Model from scratch as part of the Vizuara series, including tokenization, embeddings, and attention mechanism.",
+            "features": [
+                "Implemented scaled dot-product attention to capture contextual dependencies in sequence data.",
+                "Developed strong understanding of deep learning concepts such as vectorization, matrix operations, and computational workflows."
+            ],
+            "technologies": [
+                "Python",
+                "NumPy"
+            ],
+            "github": "",
+            "resume_bullets": [
+                "Built fundamental components of a Large Language Model from scratch as part of the Vizuara series, including tokenization, embeddings, and attention mechanism.",
+                "Implemented scaled dot-product attention to capture contextual dependencies in sequence data.",
+                "Developed strong understanding of deep learning concepts such as vectorization, matrix operations, and computational workflows."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "college": "VNR Vignana Jyothi Institute of Engineering and Technology, Hyderabad",
+            "degree": "Bachelor of Technology \u2013 CSE- Internet of things (IOT) with proficiency in Robotics",
+            "year": "2023"
+        },
+        {
+            "college": "Indian Institute of Technology Madras",
+            "degree": "BS in Data Science (Online Degree)",
+            "year": "2023-2027"
+        },
+        {
+            "college": "Tapasya Junior College",
+            "degree": "Intermediate",
+            "year": ""
+        }
+    ]
+}

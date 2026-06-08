@@ -1,0 +1,109 @@
+Professional Experience 
+DLRL (Defence Electronics Research Laboratory), DRDO
+June – July 2025 
+Implemented a computer vision–based system to detect unauthorized drones in restricted airspace using
+camera input.
+Student Intern
+Projects
+Developed an AI-powered financial assistant capable of handling 1000+ expense records, enabling efficient budget management.
+Improved expense logging efficiency by 40% through conversational and voice-based interaction.
+Delivered low-latency responses for real-time financial tracking.
+SmartPocket: Voice-Based Financial Assistant for Teens
+AI-Powered Document Verification System
+Engineered an OCR-based verification system with 99.27% accuracy, automating identity document validation.
+Reduced manual verification effort by 60%+ by streamlining document processing and data extraction workflows.
+Designed database storage for verification records and extracted metadata, enabling efficient retrieval and audit tracking.
+Technical Skills And Technologies
+Languages: Java, Python, JavaScript, C++
+ Frontend: React, Next.js, HTML, CSS
+ Backend Development: Flask, Node.js, FastAPI
+ Databases: MySQL, MongoDB, Redis
+ Cloud & DevOps: AWS, Docker, Linux
+ CS Fundamentals: Data Structures & Algorithms, Competitive Programming
+ AI/ML: Machine Learning, Deep Learning, LangChain
+Career Objective
+Aspiring Software Engineering student with a solid foundation in problem-solving and real-world application
+development, driven to contribute to meaningful projects and expand technical expertise in a professional
+environment.
+Indian Institute of Technology Madras  
+   BS in Data Science (Online Degree)  
+Tapasya Junior College
+  Intermediate
+ 
+Education
+ VNR Vignana Jyothi Institute of Engineering and Technology, Hyderabad 
+2021-2023
+Bachelor of Technology – CSE- Internet of things (IOT) with proficiency in Robotics 
+CGPA: 9.0 
+Present
+2023-2027
+94%
+DAIWIK PALAVARAPU
+STUDENT
+Hyderabad,Telangana,India |        Daiwikpalavarapu755@gmail.com
+GitHub
+Linkedin
++91 6303186352
+Jun 2025-Aug 2025
+Jan 2025-Mar 2025
+Github
+Github
+LLM from scratch
+Built fundamental components of a Large Language Model from scratch as part of the Vizuara series, including tokenization, embeddings,
+and attention mechanism.
+Implemented scaled dot-product attention to capture contextual dependencies in sequence data.
+Developed strong understanding of deep learning concepts such as vectorization, matrix operations, and computational workflows.
+Sep 2025-Nov 2025
+Tech stack: React (Vite), Node.js (Express), MongoDB, JWT Authentication, Gemini
+Tech Stack: Python, NumPy
+Tech Stack: React, Node.js (Express), MongoDB, OCR (Tesseract)
+Certificates
+Generative-AI micro internship certificate from IBM
+TensorFlow and Beyond Certification – GDG Community
+Tableau 10-week training Certificate from Internshala
+Foundation Certification on Data Science and Programming from IITM BS
+Extracurriculars
+Competitive Chess Player: FIDE rating 1513
+Secured 10+ Top-3 positions in State-Level Chess tournaments
+Secured 15+ Top-3 positions in Inter School level Chess tournaments
+Competitive Karate Practitioner: Multiple national-level accolades
+Member of Hult Prize Innovation Club 
+Volunteer of Computer Society of India
+Member of Shunya (coding club at IIT Madras)
+Ignition team Lead at VJ Startups
+Personal Information
+Languages Known: English, Telugu, Hindi, Basic German
+Strengths: Critical thinking, teamwork, exceptional interpersonal and communication skills
+Hobbies: Playing Chess, Reading Books
+ Daiwik Palavarapu
+Declaration
+I hereby declare that the information provided in this resume is true and accurate to the best of my knowledge. I understand
+that any misrepresentation of information may result in disqualification from opportunities.
+Place: Hyderabad, Telangana
+Co-Curriculars
+Actively participated in 10+ hackathons during B.Tech, including national-level competitions, collaborating
+with teams to design and develop innovative software solutions under strict deadlines.
+Served as head of Innovation Internships under VJ Startups during B.Tech, coordinating team efforts,
+managing project development, and guiding members to deliver functional prototypes.
+Contributed to authoring a book chapter and multiple research papers in the field of Internet of Things (IoT)
+during B.Tech, involving technical writing, research, and system development.
+2nd Place – Top 2 out of 1500+ Teams | Code Cubicle 4.0 Hackathon @ Microsoft IDC 
+2nd Place - Google AI Solutions Challenge Hackathon 2025,CVR
+Winner of Krithoathon 4.0 National hackathon
+Winner of Startup challenge in AI Week 2026,VNR VJIET
+2-Star Coder, CodeChef – Ranked in the Top 20% globally with a peak rating of 1460 in 
+       competitive programming
+Achievements
+Nov-2024
+Oct-2024
+Oct-2024
+Jan-2025
+June-2025
+Jan-2025
+Jan-2026
+Nov 2025-present
+Jan 2025-present
+Jan 2025-Oct 2025
+Sep 2024-Feb 2025
+Apr-2026
+
